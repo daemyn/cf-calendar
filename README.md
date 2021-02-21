@@ -49,13 +49,13 @@ Once the application is up and running open the following link `http://localhost
 
 ## Happy scenario
 
-1 - Create the mentor(s) using [POST] /mentors
+1 - Create the mentor(s) using `[POST] /mentors`
 
-2 - Book one or more slots using the endpoint [POST] /mentors/{id}/calendar
+2 - Book one or more slots using the endpoint `[POST] /mentors/{id}/calendar`
 
 3 - Use the same endpoint to book a reserved slot (this will let you know that the slot is not available)
 
-4 - Check the mentor's calendar for a specific date if you need to: [GET] /mentors/{id}/calendar (since we are looking for the whole day, you can use this date format: YYYY-MM-DD)
+4 - Check the mentor's calendar for a specific date if you need to: `[GET] /mentors/{id}/calendar` (since we are looking for the whole day, you can use this date format: YYYY-MM-DD)
 
 
 ## Potential improvements and additions
